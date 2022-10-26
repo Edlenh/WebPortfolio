@@ -1,0 +1,119 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    scroll-behavior: smooth;
+    
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+header{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(78,40,112,0), rgba(78,40,112,1));
+}
+
+
+ul{
+   margin-top: 1;
+    word-spacing: 5rem;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+nav ul li{
+    display: inline;
+    color:white;
+    text-decoration: none;
+    
+
+}
+
+
+
+a{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+  background-image: linear-gradient(to right, rgba(78,40,112,0), rgba(78,40,112,1));
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-top: auto;
+
+}
+
+
+.box {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+
+ .box img{
+    display: block;
+    width: 80%;
+    min-width:100px;
+    max-width: 700px; 
+    margin: auto;
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(to right, rgb(117, 53, 149), lavender) 1;
+    box-shadow: 15px 10px 10px #999;
+    background: transparent;
+ }
+
+ figcaption{
+    text-align: center;
+    font-size: 50px
+ }
+
+ h1{
+    
+    text-align: center;
+    font-size: 45px;
+    margin: 0%;
+ }
+
+
+body{
+    background-image: linear-gradient(to right, #F5F7FA,#B8C6DB);
+    
+}
+
+#b1{
+    font-size: 21px;
+    padding: 2px;
+    display: inline-block;
+    background-color: rgb(105, 50, 105);
+}
+
+#textbox{
+    height: 25px;
+    font-size: 60;
+}
+
+
+
+p{
+    margin: 0;
+}
